@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/bombhit.ogg-c8f351343eefb52f63b279340f3eeaad.oggstr"
+
+[deps]
+
+source_file="res://source/Subgames/KarateMan/sfx/bombhit.ogg"
+dest_files=[ "res://.import/bombhit.ogg-c8f351343eefb52f63b279340f3eeaad.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

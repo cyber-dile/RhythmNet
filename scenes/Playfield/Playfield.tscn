@@ -1,0 +1,307 @@
+[gd_scene load_steps=23 format=2]
+
+[ext_resource path="res://assets/game/perfect.svg" type="Texture" id=1]
+[ext_resource path="res://assets/fonts/rodin.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://scenes/Playfield/Perfect.gd" type="Script" id=3]
+[ext_resource path="res://resources/Circle.gd" type="Script" id=4]
+[ext_resource path="res://assets/game/skillStar.svg" type="Texture" id=5]
+[ext_resource path="res://resources/Flash.gd" type="Script" id=6]
+[ext_resource path="res://scenes/Playfield/Playfield.gd" type="Script" id=7]
+[ext_resource path="res://resources/recolor.shader" type="Shader" id=8]
+[ext_resource path="res://scenes/Playfield/Timing.gd" type="Script" id=9]
+[ext_resource path="res://assets/game/perfectFailed.svg" type="Texture" id=10]
+[ext_resource path="res://source/Subgames/KarateMan/Game.tscn" type="PackedScene" id=11]
+[ext_resource path="res://assets/fonts/kurokanestd.otf" type="DynamicFontData" id=12]
+[ext_resource path="res://resources/Rotate.gd" type="Script" id=13]
+[ext_resource path="res://source/Subgames/Videos/Game.tscn" type="PackedScene" id=14]
+[ext_resource path="res://assets/game/black.png" type="Texture" id=15]
+[ext_resource path="res://assets/game/artistPreview.png" type="Texture" id=16]
+
+[sub_resource type="DynamicFont" id=1]
+size = 12
+outline_size = 2
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 2 )
+
+[sub_resource type="ShaderMaterial" id=2]
+shader = ExtResource( 8 )
+shader_param/color = Plane( 1, 1, 1, 0 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 20
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 24
+outline_size = 4
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 12 )
+
+[sub_resource type="DynamicFont" id=5]
+outline_size = 2
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 2 )
+
+[sub_resource type="ShaderMaterial" id=6]
+shader = ExtResource( 8 )
+shader_param/color = Plane( 1, 1, 1, 0 )
+
+[node name="Playfield" type="Node2D"]
+z_as_relative = false
+script = ExtResource( 7 )
+
+[node name="Background" type="ColorRect" parent="."]
+margin_right = 640.0
+margin_bottom = 360.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Subgames" type="Control" parent="."]
+margin_top = 8.0
+margin_right = 640.0
+margin_bottom = 352.0
+rect_clip_content = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="KarateMan" parent="Subgames" instance=ExtResource( 11 )]
+visible = false
+
+[node name="Videos" parent="Subgames" instance=ExtResource( 14 )]
+visible = false
+
+[node name="TimingTop" type="ColorRect" parent="."]
+margin_right = 640.0
+margin_bottom = 8.0
+rect_clip_content = true
+color = Color( 0, 0, 0, 1 )
+script = ExtResource( 9 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Circle" type="Node2D" parent="TimingTop"]
+visible = false
+position = Vector2( 320, 4 )
+script = ExtResource( 4 )
+
+[node name="Tween" type="Tween" parent="TimingTop"]
+
+[node name="TimingBottom" type="ColorRect" parent="."]
+margin_top = 352.0
+margin_right = 640.0
+margin_bottom = 360.0
+rect_clip_content = true
+color = Color( 0, 0, 0, 1 )
+script = ExtResource( 9 )
+
+[node name="Circle" type="Node2D" parent="TimingBottom"]
+visible = false
+position = Vector2( 320, -348 )
+script = ExtResource( 4 )
+
+[node name="Tween" type="Tween" parent="TimingBottom"]
+
+[node name="Game" type="Control" parent="."]
+margin_top = 8.0
+margin_right = 640.0
+margin_bottom = 352.0
+rect_clip_content = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Perfect" type="Sprite" parent="Game"]
+visible = false
+position = Vector2( 16, 16 )
+scale = Vector2( 0.25, 0.25 )
+z_index = 195
+z_as_relative = false
+texture = ExtResource( 1 )
+centered = false
+script = ExtResource( 3 )
+
+[node name="Label" type="Label" parent="Game/Perfect"]
+margin_left = 128.0
+margin_top = -8.0
+margin_right = 275.0
+margin_bottom = 29.0
+rect_scale = Vector2( 4, 4 )
+custom_fonts/font = SubResource( 1 )
+text = "Go for a Perfect!"
+script = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Tween" type="Tween" parent="Game/Perfect"]
+
+[node name="Light" type="Sprite" parent="Game/Perfect"]
+self_modulate = Color( 1, 1, 1, 0 )
+material = SubResource( 2 )
+z_index = 195
+z_as_relative = false
+texture = ExtResource( 1 )
+centered = false
+
+[node name="Failed" type="Sprite" parent="Game/Perfect"]
+visible = false
+position = Vector2( -14, -14 )
+z_index = 195
+z_as_relative = false
+texture = ExtResource( 10 )
+centered = false
+
+[node name="SkillStar" type="Sprite" parent="Game"]
+visible = false
+position = Vector2( 608, 30 )
+scale = Vector2( 1e-05, 1e-05 )
+z_index = 195
+z_as_relative = false
+texture = ExtResource( 5 )
+
+[node name="Intro" type="VideoPlayer" parent="."]
+margin_top = 8.0
+margin_right = 640.0
+margin_bottom = 352.0
+bus = "Music"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Artist" type="Node2D" parent="."]
+visible = false
+z_index = 190
+
+[node name="Song" type="Sprite" parent="Artist"]
+self_modulate = Color( 0, 0, 0, 1 )
+position = Vector2( -187.5, 285 )
+scale = Vector2( 0.25, 0.25 )
+texture = ExtResource( 16 )
+
+[node name="Label" type="Label" parent="Artist/Song"]
+margin_left = -750.0
+margin_top = -75.0
+margin_right = -412.5
+margin_bottom = -35.0
+rect_scale = Vector2( 4, 4 )
+custom_fonts/font = SubResource( 3 )
+text = "♪ Song Name"
+align = 2
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Artist" type="Sprite" parent="Artist"]
+self_modulate = Color( 0, 0, 0, 1 )
+position = Vector2( 827.5, 330 )
+scale = Vector2( 0.25, 0.25 )
+texture = ExtResource( 16 )
+flip_h = true
+
+[node name="Label" type="Label" parent="Artist/Artist"]
+margin_left = -600.0
+margin_top = -75.0
+margin_right = -262.5
+margin_bottom = -35.0
+rect_scale = Vector2( 4, 4 )
+custom_fonts/font = SubResource( 3 )
+text = "Song by ARTIST"
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Paused" type="Node2D" parent="."]
+visible = false
+self_modulate = Color( 1, 1, 1, 0.784314 )
+z_index = 199
+z_as_relative = false
+
+[node name="Label" type="Label" parent="Paused"]
+margin_top = 120.0
+margin_right = 640.0
+margin_bottom = 145.0
+custom_fonts/font = SubResource( 4 )
+text = "Paused"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Resume" type="Label" parent="Paused"]
+margin_left = 16.0
+margin_top = 180.0
+margin_right = 400.0
+margin_bottom = 201.0
+custom_fonts/font = SubResource( 5 )
+text = "Resume Game"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Star" type="Sprite" parent="Paused/Resume"]
+material = SubResource( 6 )
+position = Vector2( 110, 10 )
+scale = Vector2( 0.075, 0.075 )
+texture = ExtResource( 5 )
+script = ExtResource( 13 )
+
+[node name="Star2" type="Sprite" parent="Paused/Resume"]
+material = SubResource( 6 )
+position = Vector2( 274, 10 )
+scale = Vector2( 0.075, 0.075 )
+texture = ExtResource( 5 )
+script = ExtResource( 13 )
+
+[node name="Quit" type="Label" parent="Paused"]
+margin_left = 240.0
+margin_top = 180.0
+margin_right = 624.0
+margin_bottom = 201.0
+custom_fonts/font = SubResource( 5 )
+text = "Quit Game"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Star" type="Sprite" parent="Paused/Quit"]
+material = SubResource( 6 )
+position = Vector2( 110, 10 )
+scale = Vector2( 0.075, 0.075 )
+texture = ExtResource( 5 )
+script = ExtResource( 13 )
+
+[node name="Star2" type="Sprite" parent="Paused/Quit"]
+material = SubResource( 6 )
+position = Vector2( 274, 10 )
+scale = Vector2( 0.075, 0.075 )
+texture = ExtResource( 5 )
+script = ExtResource( 13 )
+
+[node name="Fade2" type="Sprite" parent="Paused"]
+self_modulate = Color( 1, 1, 1, 0.784314 )
+scale = Vector2( 640, 360 )
+z_index = 198
+z_as_relative = false
+texture = ExtResource( 15 )
+centered = false
+
+[node name="Fade" type="Sprite" parent="."]
+self_modulate = Color( 1, 1, 1, 0 )
+scale = Vector2( 640, 360 )
+z_index = 200
+z_as_relative = false
+texture = ExtResource( 15 )
+centered = false
+
+[node name="Tween" type="Tween" parent="."]

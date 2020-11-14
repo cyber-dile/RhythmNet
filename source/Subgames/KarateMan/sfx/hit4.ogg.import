@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/hit4.ogg-63980c899b48153b05f2b5e3b2173631.oggstr"
+
+[deps]
+
+source_file="res://source/Subgames/KarateMan/sfx/hit4.ogg"
+dest_files=[ "res://.import/hit4.ogg-63980c899b48153b05f2b5e3b2173631.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

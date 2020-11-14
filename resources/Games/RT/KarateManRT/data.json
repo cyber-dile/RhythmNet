@@ -1,0 +1,1126 @@
+{
+	"bpm": [
+		[
+			10,
+			119
+		],
+		[
+			68571,
+			148
+		]
+	],
+	"description": "This is karate training at its most intense! (Or, at its most unorthodox...)",
+	"icon": "icon.png",
+	"id": "internal-karate-man-returns",
+	"intro": "intro.webm",
+	"markers": [
+		{
+			"bpm": 119,
+			"id": "zero",
+			"time": 10
+		},
+		{
+			"bpm": 148,
+			"id": "bpm",
+			"time": 68571
+		}
+	],
+	"music": "music.ogg",
+	"name": "Karate Man",
+	"tags": [
+		{
+			"beat": 0,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [],
+			"layer": 4,
+			"properties": [],
+			"tag": "Enter Game"
+		},
+		{
+			"beat": 22,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 30,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 38,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 46,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 50,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Rock"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 62,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 70,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 58,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 66,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 74,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Ball"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 79,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Cooking Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 86,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 90,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 96,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 98,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 100,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 102,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 104,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Ball"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 108,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 109,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 110,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Rock"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 112,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 114,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 116,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 118,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 120,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 122,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 124,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 126,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 128,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 130,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Rock"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 132,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 133,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 134,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Cooking Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 78,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [],
+			"layer": 1,
+			"properties": [],
+			"tag": "Grr!"
+		},
+		{
+			"beat": 106.5,
+			"category": "Karate Man",
+			"duration": 0.5,
+			"hits": [],
+			"layer": 1,
+			"properties": [],
+			"tag": "Hit 3!"
+		},
+		{
+			"beat": 130.5,
+			"category": "Karate Man",
+			"duration": 0.5,
+			"hits": [],
+			"layer": 1,
+			"properties": [],
+			"tag": "Hit 3!"
+		},
+		{
+			"beat": 154,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Cooking Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 148,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [],
+			"layer": 1,
+			"properties": [],
+			"tag": "Grr!"
+		},
+		{
+			"beat": 0,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [],
+			"layer": 2,
+			"properties": [
+				[
+					"Type",
+					"Solid"
+				],
+				[
+					"Image Path",
+					""
+				],
+				[
+					"Red",
+					242
+				],
+				[
+					"Green",
+					183
+				],
+				[
+					"Blue",
+					42
+				]
+			],
+			"tag": "Set Background"
+		},
+		{
+			"beat": 56,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [],
+			"layer": 2,
+			"properties": [
+				[
+					"Type",
+					"Lines"
+				],
+				[
+					"Image Path",
+					""
+				],
+				[
+					"Red",
+					242
+				],
+				[
+					"Green",
+					183
+				],
+				[
+					"Blue",
+					42
+				]
+			],
+			"tag": "Set Background"
+		},
+		{
+			"beat": 148,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [],
+			"layer": 2,
+			"properties": [
+				[
+					"Type",
+					"Solid"
+				],
+				[
+					"Image Path",
+					""
+				],
+				[
+					"Red",
+					242
+				],
+				[
+					"Green",
+					183
+				],
+				[
+					"Blue",
+					42
+				]
+			],
+			"tag": "Set Background"
+		},
+		{
+			"beat": 152,
+			"category": "Game",
+			"duration": 3,
+			"hits": [
+				3
+			],
+			"layer": 3,
+			"properties": [
+				[
+					"Length",
+					3
+				],
+				[
+					"Animation",
+					true
+				]
+			],
+			"tag": "Skill Star"
+		},
+		{
+			"beat": 0,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [],
+			"layer": 5,
+			"properties": [],
+			"tag": "Start Bobbing"
+		},
+		{
+			"beat": 157,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [],
+			"layer": 5,
+			"properties": [
+				[
+					"Head Down",
+					false
+				]
+			],
+			"tag": "Stop Bobbing"
+		},
+		{
+			"beat": 156,
+			"category": "Game",
+			"duration": 1,
+			"hits": [],
+			"layer": 4,
+			"properties": [],
+			"tag": "Forgive Misses"
+		},
+		{
+			"beat": 0,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [],
+			"layer": 3,
+			"properties": [],
+			"tag": "Game Visible"
+		},
+		{
+			"beat": 14,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [
+				1
+			],
+			"layer": 0,
+			"properties": [
+				[
+					"Shape",
+					"Pot"
+				],
+				[
+					"Sound",
+					"Throw"
+				]
+			],
+			"tag": "Object"
+		},
+		{
+			"beat": 148,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [],
+			"layer": 5,
+			"properties": [
+				[
+					"Head Down",
+					false
+				]
+			],
+			"tag": "Stop Bobbing"
+		},
+		{
+			"beat": 152,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [],
+			"layer": 5,
+			"properties": [],
+			"tag": "Start Bobbing"
+		},
+		{
+			"beat": 78,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [],
+			"layer": 2,
+			"properties": [
+				[
+					"Head Down",
+					true
+				]
+			],
+			"tag": "Stop Bobbing"
+		},
+		{
+			"beat": 79,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [],
+			"layer": 2,
+			"properties": [],
+			"tag": "Start Bobbing"
+		},
+		{
+			"beat": 52,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [],
+			"layer": 1,
+			"properties": [
+				[
+					"Missed?",
+					"Normal"
+				],
+				[
+					"Hit?",
+					"Smiling"
+				],
+				[
+					"Duration",
+					1
+				]
+			],
+			"tag": "Set Face"
+		},
+		{
+			"beat": 92,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [],
+			"layer": 1,
+			"properties": [
+				[
+					"Missed?",
+					"Normal"
+				],
+				[
+					"Hit?",
+					"Smiling"
+				],
+				[
+					"Duration",
+					1
+				]
+			],
+			"tag": "Set Face"
+		},
+		{
+			"beat": 112,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [],
+			"layer": 1,
+			"properties": [
+				[
+					"Missed?",
+					"Normal"
+				],
+				[
+					"Hit?",
+					"Smiling"
+				],
+				[
+					"Duration",
+					1
+				]
+			],
+			"tag": "Set Face"
+		},
+		{
+			"beat": 131,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [],
+			"layer": 1,
+			"properties": [
+				[
+					"Missed?",
+					"Normal"
+				],
+				[
+					"Hit?",
+					"Smiling"
+				],
+				[
+					"Duration",
+					1
+				]
+			],
+			"tag": "Set Face"
+		},
+		{
+			"beat": 136,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [],
+			"layer": 1,
+			"properties": [
+				[
+					"Missed?",
+					"Normal"
+				],
+				[
+					"Hit?",
+					"Excited"
+				],
+				[
+					"Duration",
+					2
+				]
+			],
+			"tag": "Set Face"
+		},
+		{
+			"beat": 156,
+			"category": "Karate Man",
+			"duration": 1,
+			"hits": [],
+			"layer": 1,
+			"properties": [
+				[
+					"Missed?",
+					"Normal"
+				],
+				[
+					"Hit?",
+					"Smiling"
+				],
+				[
+					"Duration",
+					0
+				]
+			],
+			"tag": "Set Face"
+		}
+	]
+}

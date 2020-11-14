@@ -1,0 +1,377 @@
+[gd_scene load_steps=16 format=2]
+
+[ext_resource path="res://resources/ScrollBG.gd" type="Script" id=1]
+[ext_resource path="res://assets/fonts/kurokanestd.otf" type="DynamicFontData" id=2]
+[ext_resource path="res://assets/fonts/custard.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://assets/game/white.png" type="Texture" id=4]
+[ext_resource path="res://resources/Circle.gd" type="Script" id=5]
+[ext_resource path="res://assets/game/eliSignature.png" type="Texture" id=6]
+[ext_resource path="res://scenes/Credits/Credits.gd" type="Script" id=7]
+[ext_resource path="res://assets/fonts/rodin.ttf" type="DynamicFontData" id=8]
+
+[sub_resource type="DynamicFont" id=1]
+size = 96
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 36
+font_data = ExtResource( 2 )
+
+[sub_resource type="AtlasTexture" id=3]
+atlas = ExtResource( 6 )
+region = Rect2( 0, 0, 80, 80 )
+
+[sub_resource type="AtlasTexture" id=4]
+atlas = ExtResource( 6 )
+region = Rect2( 80, 0, 80, 80 )
+
+[sub_resource type="SpriteFrames" id=5]
+animations = [ {
+"frames": [ SubResource( 3 ), SubResource( 4 ) ],
+"loop": true,
+"name": "default",
+"speed": 4.0
+} ]
+
+[sub_resource type="DynamicFont" id=6]
+size = 32
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=7]
+size = 20
+font_data = ExtResource( 8 )
+
+[node name="Credits" type="Node2D"]
+script = ExtResource( 7 )
+
+[node name="BG" type="Control" parent="."]
+self_modulate = Color( 0.101961, 0.0823529, 0.27451, 1 )
+margin_right = 640.0
+margin_bottom = 360.0
+rect_clip_content = true
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+gridn = 0
+shift = Vector2( 0, 0 )
+
+[node name="Scroller" type="Node2D" parent="BG"]
+
+[node name="R" type="Node2D" parent="BG/Scroller"]
+position = Vector2( 200, 152 )
+script = ExtResource( 5 )
+
+[node name="White" type="Node2D" parent="BG/Scroller/R"]
+z_index = 1
+script = ExtResource( 5 )
+size = 60
+color = Color( 1, 1, 1, 1 )
+
+[node name="Black" type="Node2D" parent="BG/Scroller/R"]
+z_index = 2
+script = ExtResource( 5 )
+size = 56
+color = Color( 0, 0, 0, 1 )
+
+[node name="Node2D" type="Node2D" parent="BG/Scroller/R"]
+z_index = 4
+
+[node name="Label" type="Label" parent="BG/Scroller/R/Node2D"]
+margin_left = -30.0
+margin_top = -54.0
+margin_right = 16.0
+margin_bottom = 55.0
+rect_scale = Vector2( 1.125, 1 )
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 1, 0.811765, 0.0745098, 1 )
+text = "R"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="H" type="Node2D" parent="BG/Scroller"]
+position = Vector2( 250, 162 )
+script = ExtResource( 5 )
+size = 56
+
+[node name="White" type="Node2D" parent="BG/Scroller/H"]
+z_index = 1
+script = ExtResource( 5 )
+size = 52
+color = Color( 1, 1, 1, 1 )
+
+[node name="Black" type="Node2D" parent="BG/Scroller/H"]
+z_index = 2
+script = ExtResource( 5 )
+size = 48
+color = Color( 0, 0, 0, 1 )
+
+[node name="Node2D" type="Node2D" parent="BG/Scroller/H"]
+z_index = 4
+
+[node name="Label" type="Label" parent="BG/Scroller/H/Node2D"]
+margin_left = -20.0
+margin_top = -35.0
+margin_right = 44.0
+margin_bottom = 74.0
+rect_scale = Vector2( 0.875, 0.75 )
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 1, 0.811765, 0.0745098, 1 )
+text = "H"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Y" type="Node2D" parent="BG/Scroller"]
+position = Vector2( 300, 157 )
+script = ExtResource( 5 )
+size = 56
+
+[node name="White" type="Node2D" parent="BG/Scroller/Y"]
+z_index = 1
+script = ExtResource( 5 )
+size = 52
+color = Color( 1, 1, 1, 1 )
+
+[node name="Black" type="Node2D" parent="BG/Scroller/Y"]
+z_index = 2
+script = ExtResource( 5 )
+size = 48
+color = Color( 0, 0, 0, 1 )
+
+[node name="Node2D" type="Node2D" parent="BG/Scroller/Y"]
+z_index = 4
+
+[node name="Label" type="Label" parent="BG/Scroller/Y/Node2D"]
+margin_left = -20.0
+margin_top = -35.0
+margin_right = 44.0
+margin_bottom = 74.0
+rect_scale = Vector2( 0.875, 0.75 )
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 1, 0.811765, 0.0745098, 1 )
+text = "Y"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="T" type="Node2D" parent="BG/Scroller"]
+position = Vector2( 350, 172 )
+script = ExtResource( 5 )
+size = 56
+
+[node name="White" type="Node2D" parent="BG/Scroller/T"]
+z_index = 1
+script = ExtResource( 5 )
+size = 52
+color = Color( 1, 1, 1, 1 )
+
+[node name="Black" type="Node2D" parent="BG/Scroller/T"]
+z_index = 2
+script = ExtResource( 5 )
+size = 48
+color = Color( 0, 0, 0, 1 )
+
+[node name="Node2D" type="Node2D" parent="BG/Scroller/T"]
+z_index = 4
+
+[node name="Label" type="Label" parent="BG/Scroller/T/Node2D"]
+margin_left = -20.0
+margin_top = -35.0
+margin_right = 44.0
+margin_bottom = 74.0
+rect_scale = Vector2( 0.875, 0.75 )
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 1, 0.811765, 0.0745098, 1 )
+text = "T"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="H2" type="Node2D" parent="BG/Scroller"]
+position = Vector2( 400, 162 )
+script = ExtResource( 5 )
+size = 56
+
+[node name="White" type="Node2D" parent="BG/Scroller/H2"]
+z_index = 1
+script = ExtResource( 5 )
+size = 52
+color = Color( 1, 1, 1, 1 )
+
+[node name="Black" type="Node2D" parent="BG/Scroller/H2"]
+z_index = 2
+script = ExtResource( 5 )
+size = 48
+color = Color( 0, 0, 0, 1 )
+
+[node name="Node2D" type="Node2D" parent="BG/Scroller/H2"]
+z_index = 4
+
+[node name="Label" type="Label" parent="BG/Scroller/H2/Node2D"]
+margin_left = -25.0
+margin_top = -35.0
+margin_right = 39.0
+margin_bottom = 74.0
+rect_scale = Vector2( 0.875, 0.75 )
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 1, 0.811765, 0.0745098, 1 )
+text = "H"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="M" type="Node2D" parent="BG/Scroller"]
+position = Vector2( 450, 177 )
+script = ExtResource( 5 )
+size = 56
+
+[node name="White" type="Node2D" parent="BG/Scroller/M"]
+z_index = 1
+script = ExtResource( 5 )
+size = 52
+color = Color( 1, 1, 1, 1 )
+
+[node name="Black" type="Node2D" parent="BG/Scroller/M"]
+z_index = 2
+script = ExtResource( 5 )
+size = 48
+color = Color( 0, 0, 0, 1 )
+
+[node name="Node2D" type="Node2D" parent="BG/Scroller/M"]
+z_index = 4
+
+[node name="Label" type="Label" parent="BG/Scroller/M/Node2D"]
+margin_left = -25.0
+margin_top = -35.0
+margin_right = 39.0
+margin_bottom = 186.0
+rect_scale = Vector2( 0.875, 0.75 )
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 1, 0.811765, 0.0745098, 1 )
+text = "M
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Net" type="Node2D" parent="BG/Scroller"]
+position = Vector2( 176, 224 )
+z_index = 4
+script = ExtResource( 5 )
+size = 30
+
+[node name="Node2D" type="Node2D" parent="BG/Scroller/Net"]
+z_index = 5
+
+[node name="Label" type="Label" parent="BG/Scroller/Net/Node2D"]
+margin_left = -15.0
+margin_top = -18.0
+margin_right = 129.0
+margin_bottom = 31.0
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+text = "NET"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Net" type="Node2D" parent="BG/Scroller/Net"]
+position = Vector2( 50, 0 )
+z_index = 4
+script = ExtResource( 5 )
+size = 30
+
+[node name="Sprite" type="Sprite" parent="BG/Scroller/Net"]
+modulate = Color( 0, 1, 1, 1 )
+position = Vector2( 0, -30 )
+scale = Vector2( 50, 60 )
+z_index = 4
+texture = ExtResource( 4 )
+centered = false
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="BG/Scroller"]
+position = Vector2( 320, 280 )
+frames = SubResource( 5 )
+playing = true
+
+[node name="Label" type="Label" parent="BG/Scroller"]
+margin_top = 360.0
+margin_right = 640.0
+margin_bottom = 393.0
+custom_fonts/font = SubResource( 6 )
+text = "Credits"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="BG/Scroller"]
+margin_left = 120.0
+margin_top = 410.0
+margin_right = 520.0
+margin_bottom = 436.0
+custom_fonts/font = SubResource( 7 )
+text = "Lead Developer"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="BG/Scroller/Label2"]
+margin_right = 400.0
+margin_bottom = 26.0
+custom_fonts/font = SubResource( 7 )
+text = "@Elidile_"
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="BG/Scroller/Label2"]
+margin_left = -25.0
+margin_top = 26.0
+margin_right = 425.0
+margin_bottom = 28.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label3" type="Label" parent="BG/Scroller"]
+margin_left = 120.0
+margin_top = 440.0
+margin_right = 520.0
+margin_bottom = 466.0
+custom_fonts/font = SubResource( 7 )
+text = "Creation of RH"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="BG/Scroller/Label3"]
+margin_right = 400.0
+margin_bottom = 26.0
+custom_fonts/font = SubResource( 7 )
+text = "Nintendo SPD"
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="BG/Scroller/Label3"]
+margin_left = -25.0
+margin_top = 26.0
+margin_right = 425.0
+margin_bottom = 28.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Tween" type="Tween" parent="."]
+
+[node name="Fade" type="Sprite" parent="."]
+self_modulate = Color( 1, 1, 1, 0 )
+scale = Vector2( 640, 360 )
+z_index = 100
+texture = ExtResource( 4 )
+centered = false

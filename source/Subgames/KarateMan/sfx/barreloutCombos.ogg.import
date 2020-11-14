@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/barreloutCombos.ogg-ac70535495cbe24f315b2bffcd3e76fd.oggstr"
+
+[deps]
+
+source_file="res://source/Subgames/KarateMan/sfx/barreloutCombos.ogg"
+dest_files=[ "res://.import/barreloutCombos.ogg-ac70535495cbe24f315b2bffcd3e76fd.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

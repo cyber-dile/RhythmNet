@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/punchy1.ogg-387e3e5320c34fe2e6b70d8df7babf5c.oggstr"
+
+[deps]
+
+source_file="res://source/Subgames/KarateMan/sfx/punchy1.ogg"
+dest_files=[ "res://.import/punchy1.ogg-387e3e5320c34fe2e6b70d8df7babf5c.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

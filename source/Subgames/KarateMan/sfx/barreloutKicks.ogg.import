@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/barreloutKicks.ogg-85f4cabf731b0066b8b6a38ccdf44db4.oggstr"
+
+[deps]
+
+source_file="res://source/Subgames/KarateMan/sfx/barreloutKicks.ogg"
+dest_files=[ "res://.import/barreloutKicks.ogg-85f4cabf731b0066b8b6a38ccdf44db4.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

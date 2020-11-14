@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/perfect_fail.ogg-bfa05331426fea8444f16a5ac217a029.oggstr"
+
+[deps]
+
+source_file="res://assets/sfx/perfect_fail.ogg"
+dest_files=[ "res://.import/perfect_fail.ogg-bfa05331426fea8444f16a5ac217a029.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

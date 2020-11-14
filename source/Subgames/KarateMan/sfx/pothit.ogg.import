@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pothit.ogg-dc3b57381ef0dcf3d3ea935bc065f334.oggstr"
+
+[deps]
+
+source_file="res://source/Subgames/KarateMan/sfx/pothit.ogg"
+dest_files=[ "res://.import/pothit.ogg-dc3b57381ef0dcf3d3ea935bc065f334.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

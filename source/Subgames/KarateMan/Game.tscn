@@ -1,0 +1,381 @@
+[gd_scene load_steps=41 format=2]
+
+[ext_resource path="res://source/Subgames/KarateMan/images/lines1.png" type="Texture" id=1]
+[ext_resource path="res://source/Subgames/KarateMan/images/circle1.png" type="Texture" id=2]
+[ext_resource path="res://source/Subgames/KarateMan/GameScript.gd" type="Script" id=3]
+[ext_resource path="res://assets/game/white.png" type="Texture" id=4]
+[ext_resource path="res://source/Subgames/KarateMan/images/leftLeg.png" type="Texture" id=5]
+[ext_resource path="res://source/Subgames/KarateMan/images/rightLeg.png" type="Texture" id=6]
+[ext_resource path="res://source/Subgames/KarateMan/images/joeHead.png" type="Texture" id=7]
+[ext_resource path="res://source/Subgames/KarateMan/images/torsoNormal.png" type="Texture" id=8]
+[ext_resource path="res://source/Subgames/KarateMan/images/rightArmRest.png" type="Texture" id=9]
+[ext_resource path="res://source/Subgames/KarateMan/images/bigShadow.png" type="Texture" id=10]
+[ext_resource path="res://source/Subgames/KarateMan/images/rightPunch3.png" type="Texture" id=11]
+[ext_resource path="res://source/Subgames/KarateMan/images/rightPunch1.png" type="Texture" id=12]
+[ext_resource path="res://source/Subgames/KarateMan/images/rightPunch2.png" type="Texture" id=13]
+[ext_resource path="res://source/Subgames/KarateMan/images/rightPunch4.png" type="Texture" id=14]
+[ext_resource path="res://source/Subgames/KarateMan/images/punch4.png" type="Texture" id=15]
+[ext_resource path="res://source/Subgames/KarateMan/images/punch2.png" type="Texture" id=16]
+[ext_resource path="res://source/Subgames/KarateMan/images/punch3.png" type="Texture" id=17]
+[ext_resource path="res://source/Subgames/KarateMan/images/punch1.png" type="Texture" id=18]
+[ext_resource path="res://source/Subgames/KarateMan/images/rightHandSwipe.png" type="Texture" id=19]
+[ext_resource path="res://resources/recolor.shader" type="Shader" id=20]
+[ext_resource path="res://source/Subgames/KarateMan/images/ball.png" type="Texture" id=21]
+[ext_resource path="res://source/Subgames/KarateMan/images/kitchenPotTop.png" type="Texture" id=22]
+[ext_resource path="res://source/Subgames/KarateMan/images/kitchenPotBottom.png" type="Texture" id=23]
+[ext_resource path="res://source/Subgames/KarateMan/images/shadow.png" type="Texture" id=24]
+[ext_resource path="res://source/Subgames/KarateMan/images/pot.png" type="Texture" id=25]
+[ext_resource path="res://source/Subgames/KarateMan/images/rock.png" type="Texture" id=26]
+[ext_resource path="res://source/Subgames/KarateMan/images/lightbulb.png" type="Texture" id=27]
+[ext_resource path="res://resources/Flash.gd" type="Script" id=28]
+[ext_resource path="res://source/Subgames/KarateMan/images/spaceballUFO.png" type="Texture" id=29]
+[ext_resource path="res://source/Subgames/KarateMan/Object.gd" type="Script" id=30]
+[ext_resource path="res://source/Subgames/KarateMan/images/hitEffect.png" type="Texture" id=31]
+[ext_resource path="res://source/Subgames/KarateMan/images/grr.png" type="Texture" id=32]
+[ext_resource path="res://source/Subgames/KarateMan/images/4.png" type="Texture" id=33]
+[ext_resource path="res://source/Subgames/KarateMan/images/combo.png" type="Texture" id=34]
+[ext_resource path="res://source/Subgames/KarateMan/images/exclamation.png" type="Texture" id=35]
+[ext_resource path="res://source/Subgames/KarateMan/images/3.png" type="Texture" id=36]
+[ext_resource path="res://source/Subgames/KarateMan/images/snow.png" type="Texture" id=37]
+
+[sub_resource type="ShaderMaterial" id=1]
+shader = ExtResource( 20 )
+shader_param/color = Plane( 0.3, 0.6, 1, 0 )
+
+[sub_resource type="ShaderMaterial" id=2]
+shader = ExtResource( 20 )
+shader_param/color = Plane( 1, 0.5, 0, 0 )
+
+[sub_resource type="ParticlesMaterial" id=3]
+emission_shape = 2
+emission_box_extents = Vector3( 1920, 1, 0 )
+flag_disable_z = true
+direction = Vector3( -0.707, 0.707, 0 )
+spread = 5.0
+gravity = Vector3( 0, 0, 0 )
+initial_velocity = 250.0
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+scale = 0.25
+
+[node name="KarateMan" type="Control"]
+margin_right = 640.0
+margin_bottom = 344.0
+rect_clip_content = true
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Zoom" type="Node2D" parent="."]
+position = Vector2( 320, 140 )
+scale = Vector2( 1.25, 1.25 )
+
+[node name="Background" type="ColorRect" parent="Zoom"]
+margin_left = -320.0
+margin_top = -172.0
+margin_right = 320.0
+margin_bottom = 172.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Custom" type="Sprite" parent="Zoom/Background"]
+visible = false
+scale = Vector2( 640, 344 )
+texture = ExtResource( 4 )
+centered = false
+
+[node name="Lines" type="Sprite" parent="Zoom/Background"]
+visible = false
+scale = Vector2( 1.455, 1.349 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="Circles" type="Sprite" parent="Zoom/Background"]
+visible = false
+scale = Vector2( 1.455, 1.349 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="Snow" type="Sprite" parent="Zoom/Background"]
+visible = false
+scale = Vector2( 640, 344 )
+texture = ExtResource( 4 )
+centered = false
+
+[node name="Joe" type="Node2D" parent="Zoom"]
+position = Vector2( -128, 142 )
+
+[node name="Head" type="Sprite" parent="Zoom/Joe"]
+position = Vector2( 0, -160 )
+scale = Vector2( 1.2, 1.2 )
+z_index = 8
+z_as_relative = false
+texture = ExtResource( 7 )
+
+[node name="Torso" type="Sprite" parent="Zoom/Joe"]
+position = Vector2( 0, -105 )
+scale = Vector2( 1.2, 1.2 )
+z_index = 7
+z_as_relative = false
+texture = ExtResource( 8 )
+
+[node name="Arm" type="Sprite" parent="Zoom/Joe/Torso"]
+position = Vector2( 25, -8 )
+z_index = 6
+z_as_relative = false
+texture = ExtResource( 9 )
+
+[node name="Punch1" type="Sprite" parent="Zoom/Joe/Torso"]
+visible = false
+position = Vector2( 42, -25 )
+z_index = 6
+z_as_relative = false
+texture = ExtResource( 18 )
+
+[node name="Effect" type="Sprite" parent="Zoom/Joe/Torso/Punch1"]
+visible = false
+position = Vector2( 40, -10 )
+rotation = 1.5708
+texture = ExtResource( 31 )
+
+[node name="Punch2" type="Sprite" parent="Zoom/Joe/Torso"]
+visible = false
+position = Vector2( 42, -18 )
+z_index = 6
+z_as_relative = false
+texture = ExtResource( 16 )
+
+[node name="Punch3" type="Sprite" parent="Zoom/Joe/Torso"]
+visible = false
+position = Vector2( 38, -10 )
+z_index = 6
+z_as_relative = false
+texture = ExtResource( 17 )
+
+[node name="Punch4" type="Sprite" parent="Zoom/Joe/Torso"]
+visible = false
+position = Vector2( 33, -10 )
+z_index = 6
+z_as_relative = false
+texture = ExtResource( 15 )
+
+[node name="RightLeg" type="Sprite" parent="Zoom/Joe"]
+position = Vector2( 18, -40 )
+scale = Vector2( 1.2, 1.2 )
+z_index = 6
+z_as_relative = false
+texture = ExtResource( 6 )
+
+[node name="Shadow" type="Sprite" parent="Zoom/Joe/RightLeg"]
+show_behind_parent = true
+position = Vector2( 0, 33 )
+z_index = 4
+z_as_relative = false
+texture = ExtResource( 10 )
+
+[node name="LeftLeg" type="Sprite" parent="Zoom/Joe"]
+position = Vector2( -21, -37 )
+scale = Vector2( 1.2, 1.2 )
+z_index = 5
+texture = ExtResource( 5 )
+
+[node name="Shadow" type="Sprite" parent="Zoom/Joe/LeftLeg"]
+show_behind_parent = true
+position = Vector2( -2, 37 )
+z_index = 4
+z_as_relative = false
+texture = ExtResource( 10 )
+
+[node name="RPunch1" type="Sprite" parent="Zoom/Joe"]
+visible = false
+position = Vector2( 52, -124 )
+scale = Vector2( 1.2, 1.2 )
+z_index = 7
+texture = ExtResource( 12 )
+
+[node name="Whoosh" type="Sprite" parent="Zoom/Joe/RPunch1"]
+visible = false
+position = Vector2( 20, -10 )
+texture = ExtResource( 19 )
+
+[node name="Effect" type="Sprite" parent="Zoom/Joe/RPunch1"]
+visible = false
+position = Vector2( 75, -19.167 )
+rotation = 1.5708
+texture = ExtResource( 31 )
+
+[node name="RPunch2" type="Sprite" parent="Zoom/Joe"]
+visible = false
+position = Vector2( 37, -124 )
+scale = Vector2( 1.2, 1.2 )
+z_index = 7
+texture = ExtResource( 13 )
+
+[node name="RPunch3" type="Sprite" parent="Zoom/Joe"]
+visible = false
+position = Vector2( 23, -124 )
+scale = Vector2( 1.2, 1.2 )
+z_index = 7
+texture = ExtResource( 11 )
+
+[node name="RPunch4" type="Sprite" parent="Zoom/Joe"]
+visible = false
+position = Vector2( 13, -124 )
+scale = Vector2( 1.2, 1.2 )
+z_index = 7
+texture = ExtResource( 14 )
+
+[node name="Object" type="Node2D" parent="Zoom"]
+position = Vector2( -30, 4 )
+z_index = 1
+script = ExtResource( 30 )
+
+[node name="Shadow" type="Sprite" parent="Zoom/Object"]
+visible = false
+position = Vector2( 0, 140 )
+scale = Vector2( 1.2, 1.2 )
+z_index = 1
+texture = ExtResource( 24 )
+
+[node name="Object" type="Node2D" parent="Zoom/Object"]
+z_index = 1
+
+[node name="Pot" type="Sprite" parent="Zoom/Object/Object"]
+visible = false
+scale = Vector2( 1.2, 1.2 )
+z_index = 1
+texture = ExtResource( 25 )
+
+[node name="Ball" type="Sprite" parent="Zoom/Object/Object"]
+visible = false
+scale = Vector2( 1.2, 1.2 )
+z_index = 1
+texture = ExtResource( 21 )
+
+[node name="Alien" type="Sprite" parent="Zoom/Object/Object"]
+visible = false
+scale = Vector2( 1.2, 1.2 )
+z_index = 1
+texture = ExtResource( 29 )
+
+[node name="Rock" type="Sprite" parent="Zoom/Object/Object"]
+visible = false
+scale = Vector2( 1.2, 1.2 )
+z_index = 1
+texture = ExtResource( 26 )
+
+[node name="Lightbulb" type="Sprite" parent="Zoom/Object/Object"]
+visible = false
+scale = Vector2( 1.2, 1.2 )
+z_index = 1
+texture = ExtResource( 27 )
+
+[node name="Blue Lightbulb" type="Sprite" parent="Zoom/Object/Object"]
+visible = false
+scale = Vector2( 1.2, 1.2 )
+z_index = 1
+texture = ExtResource( 27 )
+
+[node name="Flash" type="Sprite" parent="Zoom/Object/Object/Blue Lightbulb"]
+material = SubResource( 1 )
+z_index = 1
+texture = ExtResource( 27 )
+script = ExtResource( 28 )
+speed = 3
+
+[node name="Orange Lightbulb" type="Sprite" parent="Zoom/Object/Object"]
+visible = false
+scale = Vector2( 1.2, 1.2 )
+z_index = 1
+texture = ExtResource( 27 )
+
+[node name="Flash" type="Sprite" parent="Zoom/Object/Object/Orange Lightbulb"]
+material = SubResource( 2 )
+z_index = 1
+texture = ExtResource( 27 )
+script = ExtResource( 28 )
+speed = 3
+
+[node name="Cooking Pot" type="Sprite" parent="Zoom/Object/Object"]
+visible = false
+position = Vector2( 0, -18 )
+scale = Vector2( 1.2, 1.2 )
+z_index = 1
+texture = ExtResource( 22 )
+
+[node name="Bottom" type="Sprite" parent="Zoom/Object/Object/Cooking Pot"]
+show_behind_parent = true
+position = Vector2( 0, 22 )
+z_index = 1
+texture = ExtResource( 23 )
+
+[node name="Combo" type="Sprite" parent="Zoom"]
+visible = false
+position = Vector2( -100, -60 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 34 )
+
+[node name="Mark" type="Sprite" parent="Zoom/Combo"]
+position = Vector2( 115, 0 )
+texture = ExtResource( 35 )
+
+[node name="Grr" type="Sprite" parent="Zoom"]
+visible = false
+position = Vector2( -100, -60 )
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 32 )
+
+[node name="Mark" type="Sprite" parent="Zoom/Grr"]
+position = Vector2( 75, 0 )
+texture = ExtResource( 35 )
+
+[node name="Hit3" type="Sprite" parent="Zoom"]
+visible = false
+position = Vector2( -130, -60 )
+texture = ExtResource( 36 )
+
+[node name="Mark" type="Sprite" parent="Zoom/Hit3"]
+position = Vector2( 50, 0 )
+texture = ExtResource( 35 )
+
+[node name="Hit4" type="Sprite" parent="Zoom"]
+visible = false
+position = Vector2( -130, -60 )
+texture = ExtResource( 33 )
+
+[node name="Mark" type="Sprite" parent="Zoom/Hit4"]
+position = Vector2( 50, 0 )
+texture = ExtResource( 35 )
+
+[node name="Marks" type="Sprite" parent="Zoom"]
+visible = false
+position = Vector2( -90, -75 )
+rotation = 0.523599
+scale = Vector2( 0.8, 0.8 )
+texture = ExtResource( 35 )
+
+[node name="Mark" type="Sprite" parent="Zoom/Marks"]
+position = Vector2( 35, 0 )
+texture = ExtResource( 35 )
+
+[node name="BGSnow" type="Particles2D" parent="Zoom"]
+position = Vector2( 0, -172 )
+z_index = 1
+emitting = false
+amount = 200
+lifetime = 10.0
+visibility_rect = Rect2( -320, 0, 640, 346 )
+process_material = SubResource( 3 )
+texture = ExtResource( 37 )
+
+[node name="FGSnow" type="Particles2D" parent="Zoom"]
+position = Vector2( 0, -172 )
+z_index = 10
+emitting = false
+amount = 200
+lifetime = 10.0
+visibility_rect = Rect2( -320, 0, 640, 346 )
+process_material = SubResource( 3 )
+texture = ExtResource( 37 )

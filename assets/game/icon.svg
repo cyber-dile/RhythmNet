@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="384.00003"
+   inkscape:export-xdpi="384.00003"
+   inkscape:export-filename="C:\Users\Connor\Documents\Godot\RhythmNet\assets\game\logo.png"
+   sodipodi:docname="icon.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 16.933332 16.933332"
+   height="16.933332mm"
+   width="16.933332mm">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="53.204209"
+     inkscape:cx="45.468848"
+     inkscape:zoom="7.9195959"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-0.68731588,0.24812804)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <circle
+       r="7.6729169"
+       cy="7.424789"
+       cx="8.3602333"
+       id="path849"
+       style="opacity:0.999;fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:0.545807;paint-order:markers stroke fill" />
+    <circle
+       r="6.8791666"
+       style="opacity:0.999;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.489344;paint-order:markers stroke fill"
+       id="circle851"
+       cx="8.3602324"
+       cy="7.4247885" />
+    <circle
+       r="6.0854168"
+       cy="7.4247885"
+       cx="8.3602314"
+       id="circle853"
+       style="opacity:0.999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.432881;paint-order:markers stroke fill" />
+    <g
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.8485px;line-height:1.25;font-family:CustardW00-Regular;-inkscape-font-specification:CustardW00-Regular;fill:#ffea00;fill-opacity:1;stroke:none;stroke-width:0.321212"
+       id="text857"
+       transform="scale(1.2140326,0.82370112)"
+       aria-label="R">
+      <path
+         id="path873"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:CustardW00-Regular;-inkscape-font-specification:CustardW00-Regular;fill:#ffea00;fill-opacity:1;stroke-width:0.321212"
+         d="M 7.7132864,13.287641 Q 7.2378919,12.670913 6.9038309,12.27261 6.5826184,11.874306 6.3384969,11.643033 6.0943754,11.398912 5.9016479,11.308972 5.7217689,11.206184 5.5290414,11.206184 q -0.1670305,0 -0.282667,0.06424 -0.102788,0.06424 -0.1670305,0.25697 -0.051394,0.179879 -0.077091,0.526788 -0.012849,0.334061 -0.012849,0.886547 H 4.2056459 V 4.5892068 q 1.2463045,0 2.1200025,0.038545 0.873698,0.038545 1.4518805,0.1670305 0.591031,0.1156365 0.925092,0.359758 0.3469095,0.231273 0.5139401,0.642425 0.179879,0.3983035 0.2184245,1.002183 0.051394,0.6038795 0.051394,1.439032 0,1.2976986 -0.3854551,2.0172142 -0.3726065,0.706668 -1.2206075,0.848001 l 1.8887296,2.184245 z m 0.822304,-4.5612172 q 0,-0.3469095 -0.064243,-0.591031 -0.064242,-0.2441215 -0.25697,-0.411152 -0.1927275,-0.1670305 -0.539637,-0.2441215 -0.3469095,-0.077091 -0.925092,-0.077091 -0.565334,0 -0.899395,0.102788 -0.3212125,0.089939 -0.488243,0.2698185 -0.1670305,0.1670305 -0.205576,0.411152 -0.038545,0.2441215 -0.038545,0.539637 0,0.2955155 0.064242,0.5396371 0.064242,0.2441215 0.2441215,0.4240005 0.179879,0.179879 0.488243,0.282667 0.3212125,0.08994 0.8351525,0.08994 0.51394,0 0.848001,-0.077091 0.3469095,-0.089939 0.5524855,-0.25697 0.205576,-0.1670305 0.2955155,-0.411152 0.089939,-0.2569701 0.089939,-0.5910311 z" />
+    </g>
+    <circle
+       r="3.175"
+       cy="13.510205"
+       cx="8.0956497"
+       id="path859"
+       style="opacity:0.999;fill:#3caeff;fill-opacity:1;stroke:none;stroke-width:0.56505;paint-order:markers stroke fill" />
+    <circle
+       style="opacity:0.999;fill:#3caeff;fill-opacity:1;stroke:none;stroke-width:0.56505;paint-order:markers stroke fill"
+       id="circle861"
+       cx="14.445649"
+       cy="13.510205"
+       r="3.175" />
+    <rect
+       y="10.335205"
+       x="8.0956488"
+       height="6.3499999"
+       width="6.3499999"
+       id="rect863"
+       style="opacity:0.999;fill:#3caeff;fill-opacity:1;stroke:none;stroke-width:0.521197;paint-order:markers stroke fill" />
+    <g
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.32444px;line-height:1.25;font-family:Gotham;-inkscape-font-specification:Gotham;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.133111"
+       id="text871"
+       transform="matrix(0.87785016,0,0,0.80477094,-0.23977799,4.1853452)"
+       aria-label="NET">
+      <path
+         id="path876"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Gotham;-inkscape-font-specification:Gotham;fill:#ffffff;fill-opacity:1;stroke-width:0.133111"
+         d="M 7.9066162,13.546305 H 8.9289087 V 11.50172 l 1.5920073,2.044585 h 0.905155 V 9.8191967 H 10.403779 V 11.78924 L 8.8703398,9.8191967 H 7.9066162 Z" />
+      <path
+         id="path878"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Gotham;-inkscape-font-specification:Gotham;fill:#ffffff;fill-opacity:1;stroke-width:0.133111"
+         d="m 12.087133,13.546305 h 3.024282 v -0.878533 h -2.001989 v -0.591013 h 1.789012 V 11.26212 h -1.789012 v -0.564391 h 1.975367 V 9.8191967 h -2.99766 z" />
+      <path
+         id="path880"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Gotham;-inkscape-font-specification:Gotham;fill:#ffffff;fill-opacity:1;stroke-width:0.133111"
+         d="m 16.554172,13.546305 h 1.032942 v -2.821953 h 1.118132 V 9.8191967 H 15.43604 v 0.9051553 h 1.118132 z" />
+    </g>
+  </g>
+</svg>

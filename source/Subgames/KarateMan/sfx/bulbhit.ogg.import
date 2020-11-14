@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/bulbhit.ogg-b71f70379a166b2a6dedb3e17832e893.oggstr"
+
+[deps]
+
+source_file="res://source/Subgames/KarateMan/sfx/bulbhit.ogg"
+dest_files=[ "res://.import/bulbhit.ogg-b71f70379a166b2a6dedb3e17832e893.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

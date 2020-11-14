@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="remix.svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 12.7 12.7"
+   height="12.7mm"
+   width="12.7mm">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="text842"
+     inkscape:document-units="mm"
+     inkscape:cy="48.911546"
+     inkscape:cx="37.640218"
+     inkscape:zoom="11.2"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showguides="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <path
+       transform="scale(0.26458333)"
+       d="M 23.789062 0 A 24 24 0 0 0 0 24 A 24 24 0 0 0 0 24.210938 L 0 48 L 24 48 L 24.210938 48 L 48 48 L 48 24 A 24 24 0 0 0 24 0 A 24 24 0 0 0 23.789062 0 z "
+       style="fill:#ececed;fill-opacity:1;stroke:none;stroke-width:3.12918;stroke-linecap:square;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path863" />
+    <g
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.14933px;line-height:1.25;font-family:KurokaneStd-EB;-inkscape-font-specification:KurokaneStd-EB;fill:#3e3b59;fill-opacity:1;stroke:none;stroke-width:0.103734"
+       id="text842"
+       transform="matrix(0.75537316,-0.22123307,0,1.323849,0,0)"
+       aria-label="REMIX">
+      <path
+         id="path855"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Gotham;-inkscape-font-specification:Gotham;fill:#3e3b59;fill-opacity:1;stroke-width:0.103734"
+         d="m 1.445371,8.4758015 h 0.80497 v -0.879658 h 0.3443944 0.0083 l 0.5850555,0.879658 h 0.92945 L 3.4246014,7.4633649 C 3.7855932,7.3098397 4.022105,7.0152373 4.022105,6.5712589 v -0.0083 C 4.022105,6.2766565 3.934969,6.0525927 3.7648465,5.8866195 3.569828,5.6874516 3.2627776,5.5712704 2.8187992,5.5712704 H 1.445371 Z M 2.250341,6.9654453 V 6.2683578 h 0.5269649 c 0.2697065,0 0.4356797,0.1161813 0.4356797,0.3443944 v 0.0083 c 0,0.2116158 -0.1576745,0.3443944 -0.4315303,0.3443944 z" />
+      <path
+         id="path857"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Gotham;-inkscape-font-specification:Gotham;fill:#3e3b59;fill-opacity:1;stroke-width:0.103734"
+         d="M 4.427702,8.4758015 H 6.7845215 V 7.791162 H 5.2243734 V 7.3305863 H 6.6185483 V 6.6957388 H 5.2243734 V 6.2559098 H 6.7637749 V 5.5712704 H 4.427702 Z" />
+      <path
+         id="path859"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Gotham;-inkscape-font-specification:Gotham;fill:#3e3b59;fill-opacity:1;stroke-width:0.103734"
+         d="M 7.1993249,8.4758015 H 7.9876976 V 6.8160694 l 0.7385808,1.1286178 h 0.016597 L 9.4856058,6.8077708 V 8.4758015 H 10.286427 V 5.5712704 H 9.4358138 L 8.7428757,6.6957388 8.0499376,5.5712704 H 7.1993249 Z" />
+      <path
+         id="path861"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Gotham;-inkscape-font-specification:Gotham;fill:#3e3b59;fill-opacity:1;stroke-width:0.103734"
+         d="m 10.81417,8.4758015 h 0.809119 V 5.5712704 H 10.81417 Z" />
+      <path
+         id="path864"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Gotham;-inkscape-font-specification:Gotham;fill:#3e3b59;fill-opacity:1;stroke-width:0.103734"
+         d="m 11.939351,8.4758015 h 0.904554 l 0.56016,-0.8755087 0.55601,0.8755087 h 0.9253 L 13.889536,6.9903413 14.843882,5.5712704 h -0.904554 l -0.518666,0.817418 -0.514517,-0.817418 h -0.925301 l 0.954346,1.4273695 z" />
+    </g>
+  </g>
+</svg>

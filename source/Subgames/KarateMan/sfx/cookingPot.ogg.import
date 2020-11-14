@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/cookingPot.ogg-519f8f29ee81a5f798b86ae879e27041.oggstr"
+
+[deps]
+
+source_file="res://source/Subgames/KarateMan/sfx/cookingPot.ogg"
+dest_files=[ "res://.import/cookingPot.ogg-519f8f29ee81a5f798b86ae879e27041.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

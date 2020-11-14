@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/offbeatpotout.ogg-c0f81fc9f80b0504280a749ce3a5e469.oggstr"
+
+[deps]
+
+source_file="res://source/Subgames/KarateMan/sfx/offbeatpotout.ogg"
+dest_files=[ "res://.import/offbeatpotout.ogg-c0f81fc9f80b0504280a749ce3a5e469.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
